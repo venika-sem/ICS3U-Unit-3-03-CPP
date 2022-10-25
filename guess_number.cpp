@@ -21,7 +21,7 @@ int main() {
     std::cin >> guess;
     std::cout << std::endl;
 
-    // process & 0utput
+    // process & output
     if (guess == randomNumber) {
         std::cout << "Congratulations, you guessed correct!" << std::endl;
     } else {
